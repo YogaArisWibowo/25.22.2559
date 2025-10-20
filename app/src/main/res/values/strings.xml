@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MyFirstApp</string>
     <string name="Login">login</string>
+    <string name="Register">register</string>
 </resources>

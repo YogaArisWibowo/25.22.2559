@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/Login"
+        android:text="@string/Register"
         android:textSize="30sp">
 
     </TextView>
@@ -58,32 +58,13 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:backgroundTint="@color/logiiinn"
-        android:text="Login"
-        android:hint="Login"
-        android:id="@+id/et_btn_login">
-
-    </Button>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:backgroundTint="@color/situss"
-        android:text="Tombol Situs Web"
-        android:hint="Tombol Situs Web"
-        android:id="@+id/et_btn_situs">
-
-    </Button>
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:hint="Belum Punya Akun?Daftar di sini"
-        android:text="Belum Punya Akun?Daftar di sini"
+        android:text="Register"
+        android:hint="Register"
         android:id="@+id/et_btn_register">
 
-    </TextView>
+    </Button>
+
+
+
 
 </LinearLayout>
