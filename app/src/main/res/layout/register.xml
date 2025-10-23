@@ -53,6 +53,60 @@
 
     </EditText>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:id="@+id/et_kelamin">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pria"
+                android:layout_marginRight="20dp"
+                android:id="@+id/btn_pria">
+            </RadioButton>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wanita"
+                android:layout_marginRight="20dp"
+                android:id="@+id/btn_wanita">
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saya setuju dengan syarat dan ketentuan"
+        android:layout_marginTop="20dp"
+        android:id="@+id/et_sdk">
+    </CheckBox>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Domisili"
+        android:layout_marginTop="20dp">
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spinner_domisili"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/daftar_kota"
+        android:layout_marginBottom="20dp">
+    </Spinner>
+
+
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

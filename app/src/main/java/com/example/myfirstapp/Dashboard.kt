@@ -13,10 +13,11 @@ class Dashboard : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.dashboard)
 
+        // Memuat DashboardFragment secara dinamis ke dalam FragmentContainerView
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container, DashboardFragment())
+            .commit()
 
-        val tv_ucapan: TextView = findViewById(R.id.tv_ucapan)
-        val username = intent.getStringExtra("nama")
 
-        tv_ucapan.text = "Selamat datang! $username"
     }
 }
