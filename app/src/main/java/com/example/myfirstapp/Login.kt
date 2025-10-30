@@ -26,7 +26,7 @@ class Login : AppCompatActivity() {
 
         btn_login.setOnClickListener {
             val username = et_Username.text.toString()
-            val pindah: Intent = Intent(this, Dashboard::class.java)
+            val pindah: Intent = Intent(this,Dashboard::class.java)
             pindah.putExtra( "nama", username)
             startActivity(pindah)
         }
